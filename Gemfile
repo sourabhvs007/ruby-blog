@@ -40,3 +40,6 @@ gem 'spring',        group: :development
 
 # Use twitter-bootstrap-rails with bootstrap3 branch
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
+
+# For LESS use with twitter-bootstrap-rails
+gem 'less-rails'
