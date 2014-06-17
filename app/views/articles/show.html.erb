@@ -16,7 +16,7 @@
 <a name="comments"></a>
 <div>
   <h4><%= pluralize(@article.comments.count, "Comment") %></h4>
-  <%= render @article.comments %>
+  <%= render @article.comments.sort { |a,b| a.created_at <=> b.created_at } %>
   <h4>Add a comment:</h4>
   <%= render 'comments/form' %><br />
 </div>
