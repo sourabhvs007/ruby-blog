@@ -17,4 +17,5 @@ test:
 
 production:
   <<: *default
+  username: postgres
   database: db_production

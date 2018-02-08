@@ -47,4 +47,11 @@ gem 'less-rails'
 # For Heroku deployment
 gem 'rails_12factor', group: :production
 
-ruby "2.1.2"
+#ruby "2.1.2"
+# group :development do
+    gem 'capistrano',         require: false
+    gem 'capistrano-rbenv',     require: false
+    gem 'capistrano-rails',   require: false
+    gem 'capistrano-bundler', require: false
+    gem 'capistrano3-puma',   require: false
+# end
