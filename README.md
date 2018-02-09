@@ -1,4 +1,4 @@
-ruby Blog
+Ruby Blog
 =========
 
 This is a simple demo blog application written in Ruby on Rails. It was created following the [Getting Started Guide](http://guides.rubyonrails.org/getting_started.html) on [RubyOnRails.org](http://rubyonrails.org). This blog diverges from the Getting Started Guide in that it uses the [Bootstrap3](http://getbootstrap.com/) front-end framework.
